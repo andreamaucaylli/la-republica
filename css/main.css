@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.text-white{
+	color:#fff;
+}
+/* ----------- Header ------------ */
+.block1{
+	padding: 10px 0 30px 0;
+	background-color: #eee;
+	border-bottom: 1px solid #c7c7c7;
+}
+/* ----------- Sección: bloque3; ------------ */
+
+/* ----------- Sección: noticias detacadas dos------------ */
+.noticias-dos{
+	border: 1px solid #c7c7c7;
+	margin: 30px 0 0 0;
+}
+.noticias-dos h4{
+	color: #C70000;
+}
+div.img-pases{
+	height: 180px;
+	background-image: url(../image/img_especiales.jpg);
+	background-size: 100%;
+	margin: 0 0 10px 0;
+}
+div.filtro{
+	height: 180px;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+	padding: 0 20px;
+	position: relative;
+}
+div.filtro h4{
+	color: white;
+  position: absolute;
+  bottom: 0;
+  text-shadow: 1px 2px 1px #000;
+}
+div.aside img{
+	margin: 30px 0 0 0;
+}
+/* -----------Sección: Emma------------ */
+.border-emma{
+	padding: 30px 0;
+	border: 1px solid #c7c7c7;
+}
+
+.bloque4 .container .row h4{
+	font-family: 'Oswald';
+	color: #c7c7c7;
+}
