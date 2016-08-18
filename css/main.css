@@ -6,6 +6,7 @@
 	background-color: red;
 	margin: 0 38%;
 	margin-top:-10px;
+	padding: 1%;
 }
 .domingo{
 	border:1px solid gray;
@@ -15,11 +16,25 @@
 	width: 80%;
 	padding:  2% 0;
 }
-.editoral-p{
-	padding-top: 6%;
+.mg-t3 .editorial{
+	border-top: 1px gray solid;
+	border-bottom: 1px gray solid;
+	padding-left: 0px;
+	padding-right: :0px;
+}
+
+.editorial-face{
+	position: absolute;
+    top: 0;
+    right: 0;
 }
 .editorial-img{
-
+	background-color: black;
+	position: absolute;
+	top:0;
+}
+.img-edi{
+	width: 145%;
 }
 .nav .nav-item a:hover{
 	background-color: #C00140;
@@ -69,6 +84,9 @@
 .img-width{
 	width: 100%;
 }
+.mg-b3{
+	margin-bottom: 3%;
+}
 .mg-t3{
 	margin-top: 3%;
 }
@@ -102,11 +120,23 @@
 .underline:hover{
 	text-decoration: underline;
 }
-
-
-
-
-
+.bg-white{
+	background-color: white;
+	padding: 3%;
+}
+.bg-cuadros{
+	background-image: url("../image/bg_trama_rayas.png");
+	padding: 2%;
+}
+.cuadro{
+	padding-top: 5%;
+}
+.progress{
+	width: 100%;
+}
+.img-pregunta{
+	margin-top: -15%;
+}
 
 
 
