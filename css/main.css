@@ -1,0 +1,53 @@
+.nav-sns .left a{
+    color: dimgray;
+    margin-right: 2rem;
+}
+
+.nav-sns .right input{
+    float: right;
+}
+
+.nav .right a, i{
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.white{
+    color: white;    
+}
+
+.blue{
+    color: darkblue;
+}
+
+.lightblue{
+    color: darkturquoise;
+}
+
+.red{
+    color: darkred;
+}
+
+.yellow{
+    color: orange;
+}
+
+.orange{
+    color: orangered
+}
+
+.main-topics a{
+    color: black;
+}
+
+.nav-topics{
+    background-color: lightgray;
+}
+
+.nav-topics a,img{
+    margin: 1rem;
+}
