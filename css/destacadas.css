@@ -1,0 +1,57 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+a{
+	color: black;
+}
+
+.separador {
+    border-top: 3px solid gray;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titulo-especiales{
+	position: absolute;
+    top: 10px;
+    left: 32%;
+    background-color: gray;
+    border-color: gray;
+    color: white;
+    border-radius: 0%;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.caja-bajo-info{
+	margin-top: 20px;
+}
+
+.borde-image-foto-des{
+	border: 2px solid gray;
+	margin-bottom: 2%;
+}
+
+.info-especiales{
+    height: auto;
+    padding: 1.5% 20%;
+    position: absolute;
+    left: 11%;
+    bottom: 4%;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.img-especial{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.caja-bottom-especial{
+	border: 1px solid #D8D8D8;
+    margin-right: 68%;
+}
