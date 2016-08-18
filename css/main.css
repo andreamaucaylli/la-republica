@@ -1,0 +1,47 @@
+/*COLUMNISTAS*/
+.columnistas{
+	background-color: #F2F2F2;
+	text-align: center;
+	border-top: 3px solid #AA1801;
+}
+.columnistas h3{
+	font-size: 0.8em;
+	font-family: "Oswald";
+	margin-top: 8px;
+}
+.columnistas p{
+	font-size: 0.9em;
+	font-family: "PT Sans";
+}
+.columnistas img{
+	border: 4px solid white;
+}
+.botonr{
+	background-color: #AA1801;
+	color: white;
+	width: 14%;
+	text-align: center;
+	margin: auto;
+	padding: 6px 10px;
+	position: relative;
+    top: -10px;
+    font-family: "Oswald";
+}
+.cr{
+	padding-right: 0px;
+}
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width : 920px) {
+	.columnistas .col-md-3{
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width : 480px) {
+	.botonr{
+	width: 28%;
+	}
+}

@@ -1,0 +1,21 @@
+.libero{
+	margin: auto;
+	width: 30%;
+	border: 1px solid gray;
+	padding: 3%;
+}
+.libero img{
+	display: inline-block;
+}
+.media-heading{
+	text-decoration: none;
+	color: black;
+}
+.logol{
+	text-align: center;
+	margin: auto;
+	border: none;
+}
+.media img{
+	border: 4px solid gray;
+}
