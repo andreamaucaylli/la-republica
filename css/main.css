@@ -1,3 +1,4 @@
+/* ----------- Generales ------------ */
 body{
 	margin: 0;
 	padding: 0;
@@ -5,6 +6,7 @@ body{
 header{
 	margin-top: -20px;
 }
+/* ----------- Utilities ------------ */
 .text-white{
 	color:#fff;
 }
@@ -20,7 +22,60 @@ header{
 .bold{
 	font-weight: bold;
 }
+.mg-b3{
+	margin-bottom: 3%;
+}
+.mg-t3{
+	margin-top: 3%;
+}
+.mg-t2{
+	margin-top: 2%;
+}
+.pd-bt{
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+.text-l{
+	font-size: 32px;
+}
+.text-white{
+	color: white;
+	font-weight: bold;
+}
+.rgba{
+	background-color:  rgba(0, 0, 2, 0.3);
+	position: absolute;
+	bottom:0;
+	padding: 2% 30px;
+	margin-right: 15px;
+	}
+.text-m{
+	font-size: 24px;
+}
+.underline:hover{
+	text-decoration: underline;
+}
+.bg-white{
+	background-color: white;
+	padding: 3%;
+}
+.mg-r1{
+	margin-right: 1%;
+}
+.ico:hover{
+	text-decoration: none;
+}
+.img-width{
+	width: 100%;
+}
+
 /* ----------- Header ------------ */
+.barra-menu{
+	width: 85%;
+}
+.barra-menu2{
+	width: 87%;
+}
 .block1{
 	padding: 10px 0 30px 0;
 	background-color: #eee;
@@ -29,8 +84,63 @@ header{
 .img-banner{
 	width: 84%;
 }
+.bg-red{
+	background-color: #C00101;
+	border-radius: 10px;
+}
+.bg-darkred{
+	background-color: red;
+	margin: 0 38%;
+	margin-top:-10px;
+	padding: 1%;
+}
+.domingo{
+	border:1px solid gray;
+	border-bottom: 3px solid red;
+}
+.logo{
+	width: 80%;
+	padding:  2% 0;
+}
+.mg-t3 .editorial{
+	border-top: 1px gray solid;
+	border-bottom: 1px gray solid;
+	padding-left: 0px;
+	padding-right: :0px;
+}
+.editorial-face{
+	position: absolute;
+  top: 0;
+  right: 0;
+}
+.editorial-img{
+	background-color: black;
+	position: absolute;
+	top:0;
+}
+.img-edi{
+	width: 145%;
+}
+.nav .nav-item a:hover{
+	background-color: #8a0000;
+}
+.nav .nav-item .bg-blue{
+	background-color: #284193;
+}
+.nav .nav-item a{
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+	padding:7px 11px;
+}
+/* ----------- Sección: bloque2; ------------ */
+.bloque2 .container .row a:hover{
+	color: #000;
+}
+.bloque2 .container .row .rgba .underline:hover{
+	color: #fff;
+}
 /* ----------- Sección: bloque3; ------------ */
-
 /* ----------- Sección: noticias detacadas dos------------ */
 .noticias-dos{
 	border: 1px solid #c7c7c7;
@@ -181,13 +291,13 @@ div.nuestros-blogueros li a:hover{
 	padding-top: 20px;
 }
 /* ------Sección: Bloque 4/Aside/infografias------- */
-	.info-infografia{
-    height: auto;
-    padding: 1.5% 20%;
-    position: absolute;
-    left: 11%;
-    bottom: 4%;
-    background-color: rgba(255,255,255, 0.8);
+.info-infografia{
+  height: auto;
+  padding: 1.5% 20%;
+  position: absolute;
+  left: 11%;
+  bottom: 4%;
+  background-color: rgba(255,255,255, 0.8);
 }
 .img-infografia{
 	margin-top: 5%;
@@ -196,6 +306,8 @@ div.nuestros-blogueros li a:hover{
 .infografias .row .col-lg-12 .img-infografia a:hover{
 	color: #000;
 }
+
+
 /* ------Media Queries------- */
 @media (min-width: 200px) and (max-width:767px){
 	.emma-watson{
@@ -210,3 +322,144 @@ div.nuestros-blogueros li a:hover{
     padding-left: 2%;
 	}
 }
+
+
+.text-xs{
+	font-size: 13px;
+}
+.text-xl{
+	font-size: 4.5em;	
+	font-weight: bold;
+}
+
+.ico{
+	background-color: #EDEFF0;
+	border-radius: 5px;
+}
+.ico-fa{
+	box-shadow: 0px 3px 0px 0px rgba(15,47,207,1);
+	color:#0f2fcf;
+	padding: 3px 3px 3px 8px;	
+}
+.ico-twi{
+	padding: 3px 2px 3px 4px;	
+	color: #109ccf;
+	box-shadow:  0px 3px 0px 0px rgba(16,156,207,1);
+}
+.ico-goo{
+	padding: 3px 2px 3px 6px;	
+	color: #f2032b;
+	box-shadow:  0px 3px 0px 0px rgba(242,3,43,1);
+}
+
+
+.bg-cuadros{
+	background-image: url("../image/bg_trama_rayas.png");
+	padding: 2%;
+}
+.cuadro{
+	padding-top: 5%;
+}
+.progress{
+	width: 100%;
+}
+.img-pregunta{
+	margin-top: -15%;
+}
+
+.img-suscribete{
+	margin-top: -15%;
+}
+
+/*footer*/
+.content{
+    padding: 2%;
+}
+.fondo-footer{
+    background-color:#E2E4E6;
+}
+.grp-repu-logo{
+    padding-left: 4%;
+    width: 50%;
+}
+.col-lg-4 h5 {
+    font-size: 16px;
+}
+.col-lg-2 a {
+    color: black;
+}
+.etg{
+    color: white;
+    background-color: black;
+    padding: 2%;
+    text-align: center;
+}
+span{
+    padding: 0px 0px 0px 0px;
+}
+
+.nav a {
+    color: black;
+    font-size: 12px;
+}
+/*form-suscribir*/
+.suscri-boletin{
+    background-image: url(../image/bg_trama_rayas.png);
+    height: 340px;
+    padding: 50px 24px;
+}
+.form-group div {
+    background-color: white;
+    padding-bottom: 10%;
+}
+
+.suscri-boletin img {
+    margin: -33px 0 0 125px;
+}
+.suscri-boletin .suscrib-formulario {
+}
+.suscri-boletin label {
+    padding: 6% 6%;
+    font-size: 20px;
+}
+.suscri-boletin #disabledTextInput {
+    margin-left: 7%;
+    width: 85%;
+    background-color: #E2E4E6;
+}
+.btn-form{
+    margin-top: 9%;
+    background-color: #BA1414;
+    border-color: #BA1414;
+    width: 86%;
+}
+
+
+/**RESPONSIVE**/
+
+@media (max-width:1100px){
+	.nav-pills{
+		display: none;
+	}
+	.logo{
+		width: 40%;
+	}
+	.pd-bt .editorial{
+		padding-left: 0px;
+	}
+}
+@media (max-width:600px){
+	.text-xl{
+		font-size: 44px;
+	}
+	.nav-pills{
+		display: none;
+	}
+	.logo{
+		width: 60%;
+	}
+	.pd-bt .editorial{
+		padding: 0px;
+	}
+}
+>>>>>>> a512c5ac5e4a46accf1b5dc2b0894c27c61ef962

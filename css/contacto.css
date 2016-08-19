@@ -1,0 +1,52 @@
+ #extampleField {
+   background-color: #E2E4E6;
+   margin-top: 4%;
+   
+}
+.form-mensaje{
+  padding: 3% 0 30% 2%;
+}
+.col-lg-offset-5 .btn {
+  background-color: black;
+  color: white;
+  margin:7% 0;
+  padding: 2% 30% 2% 30%;
+  
+}
+.text-right{
+  text-align: right;
+}
+/*footer*/
+.content{
+  padding: 2%;
+}
+.fondo-footer{
+  background-color:#E2E4E6;
+}
+.grp-repu-logo{
+  padding-left: 4%;
+  width: 50%;
+}
+.col-lg-4 h5 {
+  font-size: 16px;
+}
+.col-lg-2 a {
+  color: black;
+}
+.etg{
+  color: white;
+  background-color: black;
+  padding: 2%;
+  text-align: center;
+}
+span{
+  padding: 0px 0px 0px 0px;
+}
+
+.nav a {
+  color: black;
+  font-size: 12px;
+}
+
+
+
