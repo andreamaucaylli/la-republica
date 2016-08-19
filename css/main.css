@@ -2,14 +2,32 @@ body{
 	margin: 0;
 	padding: 0;
 }
+header{
+	margin-top: -20px;
+}
 .text-white{
 	color:#fff;
+}
+.text-gray{
+	color: #666666;
+}
+.text-black{
+	color: #000;
+}
+.whidth-total{
+	width: 100%;
+}
+.bold{
+	font-weight: bold;
 }
 /* ----------- Header ------------ */
 .block1{
 	padding: 10px 0 30px 0;
 	background-color: #eee;
 	border-bottom: 1px solid #c7c7c7;
+}
+.img-banner{
+	width: 84%;
 }
 /* ----------- Sección: bloque3; ------------ */
 
@@ -27,6 +45,15 @@ div.img-pases{
 	background-size: 100%;
 	margin: 0 0 10px 0;
 }
+.text1-pases:hover{
+	color: #C70000;
+}
+.text2-pases h4:hover{
+	text-decoration: underline;
+}
+.text3-pases:hover{
+	color: #000;
+}
 div.filtro{
 	height: 180px;
 	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
@@ -42,13 +69,144 @@ div.filtro h4{
 div.aside img{
 	margin: 30px 0 0 0;
 }
-/* -----------Sección: Emma------------ */
+/* -----------Sección: bloque4/Emma------------ */
 .border-emma{
-	padding: 30px 0;
-	border: 1px solid #c7c7c7;
+	height: 234px;
+  padding: 30px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #c7c7c7;
 }
-
-.bloque4 .container .row h4{
+.bloque4 .container .ultimas-not h4{
 	font-family: 'Oswald';
 	color: #c7c7c7;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+.bloque4 .container .ultimas-not h4 img{
+	margin-top: -5px;
+}
+.title-emma{
+	padding-left: 15px;
+}
+.bloque4 .titulo-emma{
+	padding-bottom: 25px;
+  color: #000;
+  font-size: 20px;
+  display: block;
+}
+hr{
+	color: blue;
+	margin-bottom: 30px;
+}
+/* ------Iconos/Emma------- */
+.ico{
+	background-color: #EDEFF0 ;
+	border-radius: 5px;
+}
+.ico:hover{
+	background-color: #c7c7c7;
+	text-decoration: none;
+	color: #fff;
+}
+.mg-r1{
+	margin-right: 1%;
+}
+.ico-fa{
+	box-shadow: 0px 3px 0px 0px rgba(15,47,207,1);
+	color:#0f2fcf ;
+	padding: 3px 3px 3px 8px;    
+}
+.ico-twi{
+	box-shadow:0px 3px 0px 0px rgba(16,156,207,1);
+	color: #109ccf;
+	padding: 3px 2px 3px 4px;    
+}
+.ico-goo{
+	box-shadow:0px 3px 0px 0px rgba(242,3,43,1);
+	color: #f2032b;
+	padding: 3px 2px 3px 6px;    
+}
+.ico-youtube{
+	color: red;
+}
+.punto-icon{
+	margin: 0 10px;
+} 
+
+/* ------Sección: Bloque 4 / Aside------- */
+/* ------Sección: Bloque 4 / Aside/ caricatura------- */
+
+.box{
+	max-width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 45px 0 15px 0;
+  position: relative;
+  margin-top: 20px;
+}
+.border-red{
+	border-top: 3px solid #C70000;
+}
+.img-caricatura{
+	padding: 0 0 10px 0;
+	width: 100%;
+}
+.title-caricatura, .title-blogueros-home, .title-edicion-impresa, .title-infografias-home{
+  padding: 8px 16px 0;
+  position: absolute;
+  top: -11px;
+  left: 96px;
+  font-family: 'Oswald'
+}
+.title-red{
+	background-color: #C70000;
+}
+/* ------Sección: Bloque 4 / Aside/ blogueros------- */
+.border-gray{
+  border-top: 3px solid #c7c7c7;
+}
+.info-blog-home{
+	margin-bottom: 20px;
+}
+.title-gray{
+	background-color: #c7c7c7;
+}
+div.nuestros-blogueros li a:hover{
+	color: #000;
+}
+/* ------Sección: Bloque 4/Aside/edicion impresa------- */
+.img-impresa{
+	margin-bottom: 20px;
+}
+.text-edicion-impresa{
+	padding-top: 20px;
+}
+/* ------Sección: Bloque 4/Aside/infografias------- */
+	.info-infografia{
+    height: auto;
+    padding: 1.5% 20%;
+    position: absolute;
+    left: 11%;
+    bottom: 4%;
+    background-color: rgba(255,255,255, 0.8);
+}
+.img-infografia{
+	margin-top: 5%;
+	width: 100%;
+}
+.infografias .row .col-lg-12 .img-infografia a:hover{
+	color: #000;
+}
+/* ------Media Queries------- */
+@media (min-width: 200px) and (max-width:767px){
+	.emma-watson{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 960px){
+ .bloque4 .caricatura{
+		padding-right: 2%;
+    padding-left: 2%;
+	}
 }
