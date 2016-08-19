@@ -1,3 +1,42 @@
-.columnistas .box{
-    border: 0.3rem solid lightgray;
+.columnistas1, .columnistas2{
+    font-family: 'Oswald';
 }
+
+.columnistas1 .box{
+    border: 0.3rem solid lightgray;
+    padding: 2rem;
+    text-align: center;
+}
+
+.font-bloguero{
+    font-family: 'Pt Sans';
+    font-weight: 100;
+}
+
+.margin-box{
+    margin-bottom: 3.55rem;
+}
+
+.mbox{
+    background-color: lightgray;
+    margin: 0 0.8rem;
+    padding: 0.5rem 0;
+}
+
+.bg-red{
+	background-color: #C00101;
+    padding: 1rem;
+}
+
+.columnistas2 .nav a:hover{
+	background-color: darkred;
+}
+
+.columnistas2 .nav .nav-item{
+	color: white;
+ 	font-size: 1rem;
+	font-weight: bold;
+	padding:0.7rem 0.7rem;
+}
+
+

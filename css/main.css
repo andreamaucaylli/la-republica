@@ -3,13 +3,18 @@
     margin-right: 2rem;
 }
 
-.nav-sns .right input{
-    float: right;
+.nav .right a, i{
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-decoration: none;
 }
 
-.nav .right a, i{
-    text-decoration: none;
-    margin-left: 1rem;
+.main-topics .navbar .nav-item{
+    color: white;
+}
+
+.main-topics .navbar a:hover{
+    
 }
 
 .bg-black{
