@@ -127,6 +127,7 @@
 .bg-cuadros{
 	background-image: url("../image/bg_trama_rayas.png");
 	padding: 2%;
+	margin-bottom: 10%;
 }
 .cuadro{
 	padding-top: 5%;
@@ -138,8 +139,75 @@
 	margin-top: -15%;
 }
 
+.img-suscribete{
+	margin-top: -15%;
+}
+
+/*footer*/
+.content{
+    padding: 2%;
+}
+.fondo-footer{
+    background-color:#E2E4E6;
+}
+.grp-repu-logo{
+    padding-left: 4%;
+    width: 50%;
+}
+.col-lg-4 h5 {
+    font-size: 16px;
+}
+.col-lg-2 a {
+    color: black;
+}
+.etg{
+    color: white;
+    background-color: black;
+    padding: 2%;
+    text-align: center;
+}
+span{
+    padding: 0px 0px 0px 0px;
+}
+
+.nav a {
+    color: black;
+    font-size: 12px;
+}
+/*form-suscribir*/
+.suscri-boletin{
+    background-image: url(../image/bg_trama_rayas.png);
+    height: 340px;
+    padding: 50px 24px;
+}
+.form-group div {
+    background-color: white;
+    padding-bottom: 10%;
+}
+
+.suscri-boletin img {
+    margin: -33px 0 0 125px;
+}
+.suscri-boletin .suscrib-formulario {
+}
+.suscri-boletin label {
+    padding: 6% 6%;
+    font-size: 20px;
+}
+.suscri-boletin #disabledTextInput {
+    margin-left: 7%;
+    width: 85%;
+    background-color: #E2E4E6;
+}
+.btn-form{
+    margin-top: 9%;
+    background-color: #BA1414;
+    border-color: #BA1414;
+    width: 86%;
+}
 
 
+/**RESPONSIVE**/
 
 @media (max-width:1100px){
 	.nav-pills{
